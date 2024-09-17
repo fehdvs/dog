@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    max-width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main{
+    background: url(../img/bg-main\ \(2\).svg) ;
+    height: 880PX;
+    background-position: center;
+    background-size: cover;
+
+}
+.about{
+    &_wp{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+    &_dots{
+        position: absolute;
+        top: -110px;
+        right: -70px;
+
+    }
+    &_dog{
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -120px;
+        z-index: 2;
+    }
+    &_blob{
+        
+        margin-left: 70px;
+        position: absolute;
+        bottom: -60px;
+    }
+
+}
